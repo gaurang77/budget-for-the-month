@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>BUDGET APP </title>
+    <link rel="stylesheet" href="bst.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">-->
+</head>
+
+<body>
+    <h1>BUDGET APP </h1>
+    <br><br>
+    <div class="addc">
+        budget feedback
+    </div>
+    <div id="cbox" >
+    <form id="calc" >
+        <p> Please enter your budget for the month </p>
+        <input type="number"  id="amount" value="0"><br><br>
+        <button type="submit" id="calsub">calculate</button>
+    </form>
+    </div>
+
+    <div class="img">
+        <p1>BUDGET</p1><br>
+        <img id="b" src="bud.png">
+        <p01 id="p1"> $0 </p01>
+        <p2>EXPENSE</p2>
+        <img id="e" src="exp.png">
+        <p02 id="p2"> $0 </p02>
+        <p3>SAVINGS</p3>
+        <img id="s" src="sav.png">
+        <p03 id="p3"> $0 </p03>
+        <br><br>
+    </div>
+
+    <div id="cbox2">
+    <form id="cale">
+        <p> Please enter your expense </p>
+        <input type="text" id="texte" value="e.g car rent"><br><br>
+        <p> Please enter your expense amount </p>
+        <input type="number" id="expe"><br>
+        <button type="submit" id="expcal">ADD</button>
+    </form>
+    </div>
+
+    <div id="cbox3">
+        <h2 id="hE">Expenses</h2>
+        <p id ="hEP"></p>
+        <h2 id="hA">Amount($)</h2>
+        <p id ="hEA"></p>
+    </div>
+<script src="b.js"> </script>
+</body>
+</html>
